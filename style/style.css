@@ -99,7 +99,6 @@ p, li, nav{
 .hoverable:hover, .selected{
     background-color: var(--5) !important; 
     color: white;
-    
 }
 
 .hoverable{
@@ -128,4 +127,8 @@ img, video{
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+a{
+    text-decoration: none;
 }
