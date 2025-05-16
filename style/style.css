@@ -1,0 +1,131 @@
+:root{
+    --1: #FA2;
+    --2: #022;
+    --3: #03A;
+    --4: #024;
+    --5: #06F;
+}
+
+*{
+    background-color: var(--2);
+    color: var(--1);
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-family: "Century Gothic","CenturyGothic","AppleGothic","sans-serif"; 
+    margin: 0.5em;
+}
+
+p, li, nav{
+    font-family: "Futura","Trebuchet MS","Arial,sans-serif"; 
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.title{
+    margin: 0;
+    padding: 0.5em;
+    background-color: var(--2);
+    text-align: center;
+    vertical-align: middle;
+    height: 2em;
+}
+
+.navbar{
+    padding: 0.7em;
+    margin: 0;
+    box-shadow: 0 0.2em 0.1em black;
+}
+
+.navbar, .navbar span, .navbar img{
+    background-color: var(--4);
+    position: sticky;
+    top: 0;
+}
+
+.navbar a{
+    background-color: var(--3);
+    margin: 0;
+    text-decoration: none;
+    padding: 0.3em 0.5em;
+    border-radius: 0.2em;
+}
+
+.navbar span{
+    vertical-align:middle;
+}
+
+.navbar img{
+    height: 1.5em;
+    width: auto;
+}
+
+.page_text{
+    background-color: var(--4);
+    margin: 3em;
+    padding: 1em;
+    border-radius: 2em;
+}
+
+.page_text h2{
+    background-color: var(--4);
+    text-align: center;
+}
+
+.container, .container h3, .container p, .container ul, .container li{
+    background-color: var(--2);
+}
+
+.container{
+    margin: 0.75em 15%;
+    padding: 0.5em;
+    padding-bottom: 1.5em;
+    border-radius: 20px;
+}
+
+.container p{
+    margin: 0.2em;
+    padding: 0.5em;
+}
+
+.container h3, .container h2{
+    text-align: center;
+    background-color: var(--3);
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.hoverable:hover, .selected{
+    background-color: var(--5) !important; 
+    color: white;
+    
+}
+
+.hoverable{
+    transition: background-color 0.4s ease;
+    transition: color 0.2s ease; 
+}
+
+.beam_grid{
+    display: grid;
+}
+
+.beam_grid p{
+    grid-row: 1;
+}
+
+.beam_grid img{
+    grid-row: 2;
+}
+
+img, video{
+    margin: 1em;
+    height: auto;
+    width: 75%;
+    border-radius: 0.5em; 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

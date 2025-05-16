@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style/3.css">
+        <link rel="stylesheet" href="style/style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1 class="title">Super Metroid Speedrunning - A guide</h1>
+        </header>
+
+        <nav class="navbar">
+            <span><img src="img/baby_metroid.png" alt="small metroid"></span>
+            <span><a href="index.html" class="hoverable">Background</a></span>
+            <span><a href="movement.html" class="hoverable">Movement</a></span>
+            <span><a href="3.html" class="hoverable selected">Tech</a></span>
+            <span><a href="4.html" class="hoverable">Tricks</a></span>
+            <span><a href="5.html" class="hoverable">Items</a></span>
+            <span><a href="6.html" class="hoverable">Bosses</a></span>
+        </nav>
+
+        <div class="page_text">
+            <h2>
+                Tech
+            </h2>
+
+            <div class="container">
+                <h3>
+                    Beams - Advanced
+                </h3>
+
+                <p>
+                    Furthermore all beams, have a special effect when paired <i>only</i> with charge beam.
+                    The effect occurs when a power bomb is selected and charge is held.
+                    This causes beam particles to appear in a certain pattern. 
+                </p>
+
+                <h3>
+                    Wave Beam: X-factor / Wave shield
+                </h3>
+
+                <div class="beam_grid">
+                    <p>
+                        This is by far the most useful of the different beam attacks.
+                        The attack itself spawns four wave-beam particles that move towards Samus,
+                        arching chaotically with every movement.
+    
+                        The combo has applications within three of the five main bossfights in the run, 
+                        and can be used on the one miniboss in any% aswell.
+                    </p>
+
+                    <img src="img/WaveShield.gif" alt="GIF of wave shield in action">
+                </div>
+
+                <h3>
+                    Ice Beam: Ice Shield
+                </h3>
+
+                <div class="beam_grid">
+                    <p>
+                        This effect causes four Ice beam particles to circle around Samus. 
+                        Since the four particles deal slightly more damage than a power bomb 
+                        it's optimal for categories which don't have wavebeam, and need damage.
+                    </p>
+
+                    <img src="img/IceShield.gif" alt="GIF of ice shield in action">
+                </div>
+
+                <h3>
+                    Spazer: Spazer Shield
+                </h3>
+                
+                <div class="beam_grid">
+                    <p>
+                        This effect causes two spazer-like shots to circle around Samus, from her head to her feet.
+                        Then going back up, to finally rain down again. 
+                        The combo has some uses in nieche categories, but isn't widely used.
+                    </p>
+
+                    <img src="img/SpazerShield.gif" alt="GIF of spazer shield in action">
+                </div>
+                
+                <h3>
+                    Plasma Beam: Plasma Shield
+                </h3>
+
+                <div class="beam_grid">
+                    <p class="">
+                        This attack creates a number of green orbs that circle around Samus, 
+                        piercing any enemies as they do. 
+                        The combo doesn't currently have any optimal uses within runs.
+                    </p>
+
+                    <img src="img/PlasmaShield.gif" alt="GIF of plasma shield in action">
+                </div>
+            </div>
+
+            <div class="container">
+                <h3>
+                    Beams - Glitches
+                </h3>
+
+                <ul>
+                    <li>Spazer</li>
+                    <li>Plasma Beam</li>
+                    <li>Any boot item: (Hi jump boots, speed booster, space jump) </li>
+                </ul>
+
+                <p>
+                    There is one main glitch with beams, and it involves selecting both Spazer and Plasma, 
+                    which are mutually exclusive.
+                    To perform this glitch, set spazer as active and move over to your boot item of choice.
+                    Then, press left and equip at the exact same time. 
+                    Time it early and you'll unequip your boot item,
+                    time it late and you'll equip plasma, unequiping spazer in the process.
+                    If you do time it correctly both Spazer and Plasma should be equiped,
+                    with plasma having a glitched label, with "var" on it.
+                </p>
+
+                <p>
+                    From here, a lot of different buggy behaviour can be attained by using different combos.
+                </p>
+
+                <ul>
+                    <li>
+                        Murder beam: This is potentially the most useful glitched beam. 
+                        It is the combintion of all beam types. To fire the beam, 
+                        a shot has to be charged before equiping murder beam.
+                        Then once charged and only once it is fully charged, it can be fired, 
+                        only staright forward whilst facing left.
+                        If it's fired uncharged, or whilst not facing straight left the game will crash.
+                        Firing the murder beam places an invisible column of damage, 
+                        where the shot was fired, that deals continuous damage every frame.
+                        This is useful for IGT (in game time) but not for real time,
+                        as the lag it causes slows the game considerably.
+                    </li>
+                    <li>
+                        Space time beam: This beam combination is achieved by selecting all beams apart from Wave Beam.
+                        When this beam is fired, uncharged, it either crashes the game or causes other weird behaviours.
+                        If the beam is fired in a sufficiently large room, and the payer quits out of the game,
+                        the game will be reset, with all the players items intact.
+                        This isn't useful for anything else than messing around with overpowered items.
+                    </li>
+                    <li>
+                        Chainsaw beam: This beam combo has all beams except Charge-and/or Ice Beam.
+                        The beam has a high fire rate but no range, 
+                        and won't deal damage outside of a power bomb explosion.
+                        This is the least useful glitched beam, but still maybe fun to mess around with.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <script src="script/3.js"></script>
+    </body>
+</html>
